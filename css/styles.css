@@ -1,0 +1,158 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;  
+}
+
+
+/* headings */
+
+.big-heading{
+    font-family: 'Lora', serif;
+    font-size: 200%;
+    font-weight: 900;
+}
+
+/* containers */ 
+
+.container-fluid{
+    padding: 1% 15%;
+    text-align: center;
+}
+
+/* navbar */
+.navbar{
+        text-align: left;
+        background-color: #EEEEEE;
+}
+#abc{
+    width:100%;
+}
+.navbar-brand{
+    font-size:2rem;
+}
+.nav-item{
+    font-size:medium;
+}
+.nav-link{
+    margin:10px;
+}
+
+/* title section */
+
+#title{
+    background-color: #EEEEEE;
+    
+}
+/* about */
+#about{
+   background-color: #EEEEEE;
+    height:60%;
+    width:100%;
+    padding: 2rem ;
+}
+#about .container-fluid{
+    padding-top: 5rem;
+    margin:0;
+}
+.about-image{
+width:150px;
+height: 150px;
+border-radius: 200%;
+border: solid 1px;
+}
+@media (max-width:980px){
+    .big-heading{
+        font-family: 'Lora', serif;
+        font-size: 120%;
+        font-weight: 900;
+    }
+}
+@media (min-width:980px) {
+    .about-image{
+        width: 200px;
+        height:200px
+    }
+}
+@media  (max-width:623px){
+    #photos .container-fluid{
+        padding:0;
+    }
+    #photos .row{
+        padding:0;
+    }
+    .col-lg-6 .about-row{
+        margin:4% 0 0;
+    }
+}
+.about-row{
+
+    margin: 2.5rem;
+    vertical-align: middle;
+}
+
+/* Photos section */
+#photos{
+margin-top: 2%;
+}
+#photos .row{
+    text-align: center;
+    width:80%;
+    height: 80%;
+    margin: 0 auto;
+}
+#photos .col-lg-4{
+    margin:1% 0;
+    margin:auto;
+    vertical-align: middle;
+    
+}
+#photos img{
+    width:100%;
+    padding:1%;
+    
+}
+
+/* contact section */
+
+
+
+#contact{
+    margin-top: 2%;
+    background-color: #EEEEEE;
+    padding: 4rem 0rem;
+    
+}
+.cont-row{
+    padding:1% 0;
+}
+@media (max-width:525px){
+    #contact .row{
+        font-size: 70%;
+    }   
+    
+}
+#contact .container-fluid{
+    margin:0;
+}
+#contact i{
+    padding:1rem;
+
+}
+#contact .col-lg-6{
+text-align: left;
+}
+
+/* footer section */
+
+footer{
+    padding:3rem;
+    text-align: center;
+    color: black;
+}
+.foot{
+    padding: 1rem;
+}
+.fi{
+    color:black;
+    margin: 20px;
+}
