@@ -22,7 +22,7 @@ body{
 /* navbar */
 .navbar{
         text-align: left;
-        background-color: #EEEEEE;
+        background-color: #fff;
 }
 #abc{
     width:100%;
@@ -40,12 +40,12 @@ body{
 /* title section */
 
 #title{
-    background-color: #EEEEEE;
+    /* background-color: #EEEEEE; */
     
 }
 /* about */
 #about{
-   background-color: #EEEEEE;
+   /* background-color: #EEEEEE; */
     height:60%;
     width:100%;
     padding: 2rem ;
@@ -118,7 +118,7 @@ margin-top: 2%;
 
 #contact{
     margin-top: 2%;
-    background-color: #EEEEEE;
+    /* background-color: #EEEEEE; */
     padding: 4rem 0rem;
     
 }
@@ -156,3 +156,4 @@ footer{
     color:black;
     margin: 20px;
 }
+
