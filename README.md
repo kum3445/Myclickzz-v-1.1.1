@@ -4,4 +4,4 @@ This is my Photography Website Myclickzz. In this Website you can see some aweso
 Created using JavaScript, Bootstrap, CSS and HTML.
 Preview of Myclickzz.
 
-<img src="images/Screenshot 2022-07-22 094525.png">
+<img src="screencapture-kum3445-github-io-Myclickzz-v-1-1-1-2022-08-04-10_31_25.png">
